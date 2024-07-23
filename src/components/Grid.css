@@ -1,0 +1,34 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .node {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+  }
+  
+  .node-start {
+    background-color: green;
+  }
+  
+  .node-end {
+    background-color: red;
+  }
+  
+  .node-visited {
+    background-color: blue;
+  }
+  
+  .node-wall {
+    background-color: black;
+  }
+
+  

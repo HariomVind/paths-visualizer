@@ -1,0 +1,28 @@
+.node {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  .node-start {
+    background-color: green;
+  }
+  
+  .node-end {
+    background-color: red;
+  }
+  
+  .node-visited {
+    background-color: blue;
+  }
+  
+  .node-wall {
+    background-color: black;
+  }
+  
+  .node-shortest-path {
+    background-color: yellow;
+  }
+  
